@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from './App';
+import './index.css';
 
 //punto de entrada de entrada de la app
 const root = ReactDOM.createRoot(document.getElementById('root'));
