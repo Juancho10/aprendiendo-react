@@ -2,10 +2,16 @@ import './App.css';
 import { TwitterFollowCard } from './TwitterFollowCard.jsx';
 
 export function App() {
+
+    const juan = {isFollowing: true, userName: "Juancho10"}
     return(
         <div className='App'>
-            <TwitterFollowCard userName="Juancho10" name="Juan Lizarazo"/>
-            <TwitterFollowCard userName="obsproject" name="App OBS"/>
+            <TwitterFollowCard {...juan}>
+                Juan Lizarazo
+            </TwitterFollowCard>
+            <TwitterFollowCard isFollowing={false} userName="obsproject">
+                Hola Mundo
+            </TwitterFollowCard>
         </div>
     );
 }

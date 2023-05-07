@@ -29,4 +29,20 @@
     font-weight: bold;
     border-radius: 999px;
     padding: 6px 16px;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: .3s ease background-color;
+}
+
+.tw-followCard-button:hover{
+    background-color: #a5a72f;
+    color: #fff;
+}
+
+.tw-followCard-button.is-following{
+    border: 1px solid red;
+}
+
+.tw-followCard-button.is-following:hover{
+    background-color: red;
 }
