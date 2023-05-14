@@ -40,9 +40,9 @@
 }
 
 .tw-followCard-button.is-following{
-    border: 1px solid red;
+    border: 1px solid  #a12d2d;
 }
 
 .tw-followCard-button.is-following:hover{
-    background-color: red;
+    background-color: #c22323;
 }
